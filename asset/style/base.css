@@ -10,17 +10,12 @@ body{
 }
 
 nav{
-  width:400px;
-  margin:0 auto;
-  margin-top:16px;
 }
   nav a{
     font-size:larger;
   }
 
 section{
-  width:400px;
-  margin:0 auto;
 }
   section article{
     padding-bottom:7px;
