@@ -34,7 +34,7 @@ nav ul li, ul.widgetMenu li{
   display:inline-block;
   *display:inline; /* http://centricle.com/ref/css/filters/tests/asterisk/ */
   margin:0;
-  padding: 0.2em 0.4em;
+  vertical-align: bottom;
 }
   nav ul li a, ul.widgetMenu li a{
     display:-moz-inline-box; /* Fx2用のinline-block */
