@@ -1,13 +1,21 @@
 @charset "utf-8";
-
 body{
   background: #fff;
 }
 
+/*
+ * Layout
+ */
 #container{
   margin:0 auto;
   width:750px;
 }
+section{
+}
+
+/*
+ * In Header
+ */
 
 nav{
 }
@@ -15,16 +23,20 @@ nav{
     font-size:larger;
   }
 
-section{
+/*
+ * In Primary
+ */
+section article{
+  padding-bottom:7px;
+  background: transparent url("data:image/png;base64,R0lGODlhSAABAIAAAP///2ZmZiH5BAEHAAAALAAAAABIAAEAAAINDG54kLwNn1TU1XhXAQA7") repeat-x left bottom;
 }
-  section article{
-    padding-bottom:7px;
-    background: transparent url("data:image/png;base64,R0lGODlhSAABAIAAAP///2ZmZiH5BAEHAAAALAAAAABIAAEAAAINDG54kLwNn1TU1XhXAQA7") repeat-x left bottom;
-  }
-  section article.last{
-    background: none;
-  }
+section article.last{
+  background: none;
+}
 
+/*
+ * Util
+ */
 nav ul, ul.widgetMenu{
   margin:0;
   padding:0;
