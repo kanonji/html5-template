@@ -18,12 +18,13 @@ a:visited {
 a:hover, a:focus, a:active {
   color:#666;
 }
+
 a.mail{}
 a.tel{}
 a.pdf{}
 a.external{}
 a.internal{}
-a.namedAnchor{}
+a.paginal{}
 a.more{}
 a.pagetop{}
 
